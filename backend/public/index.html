@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backend Home page/Landing URL</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            font-size: 1.2rem;
+         }
+         ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 1rem;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to To-do App</h1>
+        <h3>Your go-to API for managing tasks, organizing to-do's, and tracking deadlines with ease.</h3>
+
+        <div class="endpoints">
+            <h2>Users Endpoints</h2>
+            <ul>
+                <li><strong>GET --> /todos</strong> - Retrieve all to-do items.</li>
+                <li><strong>POST --> /todos</strong> - Add a new to-do item.</li>
+                <li><strong>PUT --> /todos/:id</strong> - Update an existing to-do item.</li>
+                <li><strong>DELETE --> /todos/:id</strong> - Delete a to-do item.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
